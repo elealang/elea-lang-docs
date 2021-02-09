@@ -1,0 +1,128 @@
+
+
+
+.comp-lesson-sidebar {
+
+    width: 320px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    height: 100vh;
+    overflow-y: scroll;
+
+    em {
+	font-style: italic;
+    }
+
+}
+
+.comp-lesson-sidebar h2 {
+    font-size: 1.1rem;
+    color: #414856;
+    color: #ff69a1;
+    font-weight: 800;
+}
+
+.comp-lesson-sidebar-summary {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #5C6573;
+}
+
+
+.comp-lesson-card-list {
+    padding-top: 20px;
+}
+
+.comp-lesson-card {
+
+    padding: 20px 0px 12px 0px; 
+    background: white;
+    margin-bottom: 8px;
+
+    border: 1px solid #E5ECF6DD;
+    border-radius: 2px;
+    box-shadow: 0 2px 6px 2px #E5ECF645;
+
+    &:hover {
+	cursor: pointer;
+	border: 1px solid #DFE7F2FF;
+	box-shadow: 0 2px 10px 3px #E5ECF645;
+	border: 1px solid #B0BDD075;
+	box-shadow: 0 2px 8px 2px #B0BDD04A;
+    }
+
+    &.selected {
+	border: 1px solid #DFE7F2FF;
+	box-shadow: 0 2px 10px 3px #E5ECF645;
+	border: 1px solid #B0BDD075;
+	box-shadow: 0 2px 8px 2px #B0BDD04A;
+
+	.comp-lesson-card-section-list {
+	    display: block;
+	}
+    }
+}
+
+.comp-lesson-card-name {
+
+    margin-bottom: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    color: #056179;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.comp-lesson-card-summary {
+
+    margin-top: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    color: #5C6573CC;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.comp-lesson-card-section-list {
+
+    margin-top: 12px;
+
+    display: none;
+}
+
+.comp-lesson-card-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    font-weight: 600;
+    font-size: 1rem;
+    color: #313747DD;
+
+    &:hover {
+	cursor: pointer;
+	background: #E5ECF645;
+	color: #0ebce6;
+    }
+
+    &.selected {
+	color: #0ebce6;
+    }
+}
+
+
+.comp-lesson-card-section-label {
+    width: 2rem;
+}
+
+.comp-lesson-card-section-name {
+}

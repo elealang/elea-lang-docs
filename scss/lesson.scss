@@ -1,0 +1,56 @@
+
+
+
+.comp-lesson {
+    width: 800px;
+    background: white;
+
+    margin-left: 60px;
+    margin-top: 16px;
+
+    border: 1px solid #E5ECF6DD;
+    border-radius: 2px;
+    //box-shadow: 0 2px 6px 2px #E5ECF645;
+
+    min-height: 800px;
+
+}
+
+
+.comp-lesson-header {
+    padding: 20px 40px;
+    box-sizing: border-box;
+
+    h1 {
+	font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B";
+	font-size: 1.7rem;
+	color: #313747;
+	font-weight: 800;
+    }
+
+    border-bottom: 1px solid #E5ECF665;
+}
+
+.comp-lesson-content {
+    padding: 20px 40px 0px 40px;
+
+    h2 {
+	font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B";
+	color: #313747;
+	font-size: 1.4rem;
+	margin-top: 36px;
+    }
+
+    p {
+	margin-top: 12px;
+	line-height: 1.4rem;
+	color: #262A36;
+	font-family: "Gotham SSm A", "Gotham SSm B";
+    }
+
+    .keyword {
+	background: #E5ECF685;
+	padding: 0 4px;
+	border-radius: 4px;
+    }
+}

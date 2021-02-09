@@ -1,0 +1,129 @@
+
+
+body {
+
+    padding: 0;
+    margin: 0;
+
+    font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B";
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+#content {
+    display: flex;
+}
+
+#page-header {
+
+    height: 64px;
+    position: sticky;
+    top: 0;
+    background: white;
+
+    display: flex;
+    align-items: center;
+
+    border-bottom: 1px solid #E5ECF6BB;
+    box-shadow: 0px 3px 9px 5px #E5ECF645; 
+}
+
+
+.page-title {
+
+
+    padding: 0 20px;
+
+    font-weight: 800;
+    font-size: 1.3rem;
+
+    &:hover {
+	cursor: pointer;
+    }
+}
+
+
+.page-title-name {
+    //margin-left: 16px;
+
+    background-color: red;
+  
+    /* Create the gradient. */
+    background-image: linear-gradient(45deg, #0ebce6, #13FB79);
+  
+    /* Set the background size and repeat properties. */
+    background-size: 4rem;
+    background-repeat: repeat;
+
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+
+.page-title-description {
+    color: #616877;
+    color: #0f6a80;
+    color: #94abb0AA;
+    color: #1997b3ab;
+    font-size: 1rem;
+    color: #0ebce6cc;
+    font-size: 0.9rem;
+    line-height: 0.9rem;
+}
+
+
+#page-content {
+    padding-top: 40px;
+    background: #F0F6FA88;
+    height: 100vh;
+    display: flex;
+}
+
+.page-programming-language {
+
+    margin-left: 440px;
+
+    display: flex;
+    align-items: center;
+}
+
+.page-programming-language-label {
+
+    margin-right: 0.6rem;
+
+    font-weight: 500;
+    color: #313747;
+
+}
+
+.page-programming-language-name {
+
+    padding: 6px 14px;
+    border: 1px solid #E5ECF6BB;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px 2px #E5ECF645;
+
+    font-weight: 500;
+    color: #313747;
+    color: #11E26D;
+
+
+    &:hover {
+	cursor: pointer;
+	//color: #13FB79;
+	border: 1px solid #B0BDD075;
+	box-shadow: 0 2px 8px 2px #B0BDD03A;
+    }
+}

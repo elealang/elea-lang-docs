@@ -1,0 +1,58 @@
+lessonEntries:
+  - lessonId: introduction
+    title: 'Introduction'
+    summary: 'About Elea, meta-programming, and its use cases'
+    articleEntries:
+      - articleId: meta-programming
+        title: 'Meta-Programming'
+      - articleId: use-cases
+        title: 'Use Cases'
+      - articleId: some-important-concepts
+        title: 'Some Important Concepts'
+      - articleId: something-else
+        title: 'Something Else'
+  - lessonId: hello-universe
+    title: 'Hello, Universe!'
+    summary: 'Includes a Hello, World! inside the Hello, Universe!'
+    articleEntries:
+      - articleId: define-data-types
+        title: 'Define Data Types'
+      - articleId: create-a-database
+        title: 'Create a Database'
+      - articleId: get-user-input
+        title: 'Get Input From the User'
+      - articleId: data-integrations
+        title: 'Get Input From Anywhere'
+      - articleId: simple-machine-learning
+        title: 'Identify Trends with AI'
+  - lessonId: project-getting-started
+    title: 'Project: Comunify'
+    summary: 'Get started on a real-world application'
+    articleEntries:
+      - articleId: simple-machine-learning
+        title: 'Identify Trends with AI'
+  - lessonId: databases
+    title: 'Databases'
+    summary: 'How to build a universal data layer'
+    articleEntries:
+      - articleId: simple-machine-learning
+        title: 'Identify Trends with AI'
+  - lessonId: project-database
+    title: 'Project: Database'
+    summary: 'Create a data layer for Project Comunify'
+    articleEntries:
+      - articleId: simple-machine-learning
+        title: 'Identify Trends with AI'
+  - lessonId: machines
+    title: 'Machines'
+    summary: 'Create workflows, transactions, and control flow'
+    articleEntries:
+      - articleId: simple-machine-learning
+        title: 'Identify Trends with AI'
+  - lessonId: project-workflows
+    title: 'Project: Workflows'
+    summary: 'Create workflows for Project Comunify'
+    articleEntries:
+      - articleId: simple-machine-learning
+        title: 'Identify Trends with AI'
+

@@ -1,0 +1,4 @@
+port: 8080
+index_file: assets/index.yaml
+icons_dir: assets/icons/
+articles_dir: assets/articles/
